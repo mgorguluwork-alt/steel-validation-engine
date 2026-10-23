@@ -60,4 +60,4 @@ Product names mentioned in comments belong to their owners. This project is inde
 
 ## License
 
-Not yet decided. No license file has been added, so all rights are reserved until one is.
+MIT. See [LICENSE](LICENSE).
