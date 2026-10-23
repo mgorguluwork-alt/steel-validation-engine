@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Tekla-independent rules shared by the adapter and UI. netstandard2.0 so
+    the net472 Tekla 2020 adapter can reference it; no Tekla assemblies here,
+    which keeps this layer unit-testable without a running Tekla.
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SteelValidation.Abstractions\SteelValidation.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
